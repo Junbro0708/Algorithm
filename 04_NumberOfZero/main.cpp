@@ -5,10 +5,30 @@
 
 using namespace std;
 
+int ReturnZero(int N, int M){
+    int cnt = 0;
+    int num;
+
+    while(N < M + 1){
+        num = N;
+        while(true){
+            if(num % 10 == 0){
+                cnt++;
+            }
+            num /= 10;
+            if(num == 0){
+                break;
+            }
+        }
+        N++;
+    }
+
+    return cnt;
+}
+
 int main() {
     int T, N, M;
-    int cnt = 0;
-    int empty = 0;
+    int cnt;
 
     cin >> T;
 
@@ -16,16 +36,11 @@ int main() {
         cin >> N;
         cin >> M;
 
-        for(int j = N; j < M; j++){
-            empty = j;
-            while(empty <= 0){
-                if(empty % 10 == 0){
-                    cnt++;
-                }
-                empty = empty / 10;
-            }
-        }
+        cnt = ReturnZero(N, M);
+
         cout << cnt << endl;
     }
+
+
     return 0;
 }
