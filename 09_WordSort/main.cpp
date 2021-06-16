@@ -9,36 +9,41 @@
 
 using namespace std;
 
+bool CompareWord(string a, string b){
+    if(a.length() == b.length()){
+        return a < b;
+    }else{
+        return a.length() < b.length();
+    }
+}
+
 int main() {
     int N;
     string str;
     vector<string> word;
-
-    scanf("%d", &N);
-
+    cin >> N;
     for(int i = 0; i < N; i++){
         string temp;
-        scanf("%s", &temp);
+        cin >> temp;
         word.push_back(temp);
     }
 
-    sort(word.begin(), word.end());
+    sort(word.begin(), word.end(), CompareWord);
 
-    for(int i = 0; i < N - 1; i++){
-        for(int j = 0; j < N - i - 1; j++){
-            if(word[j].length() > word[j+1].length()){
-                str = word[j];
-                word[j] = word[j + 1];
-                word[j + 1] = str;
-            }
-        }
-    }
+//    for(int i = 0; i < N - 1; i++){
+//        for(int j = 0; j < N - i - 1; j++){
+//            if(word[j].length() > word[j+1].length()){
+//                str = word[j];
+//                word[j] = word[j + 1];
+//                word[j + 1] = str;
+//            }
+//        }
+//    }
 
     for(int i = 0; i < word.size(); i++){
         if(word[i] != word[i+1]){
-            printf("%s\n", &word[i]);
+            cout << word[i] << "\n";
         }
     }
-
     return 0;
 }
