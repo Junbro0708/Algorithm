@@ -8,25 +8,24 @@
 using namespace std;
 
 int main() {
-    int front = 0, back = 0;
+    int num = 50, temp;
     string a, b;
 
     cin >> a >> b;
 
-    for(int i = 0; i < a.length(); i++){
-        if(a[i] != b[i]){
-            front++;
+    for(int i = 0; i < b.length() - a.length() + 1; i++){
+        temp = 0;
+        for(int j = 0; j < a.length(); j++){
+            if(a[j] != b[i + j]){
+                temp += 1;
+            }
         }
-        if(a[a.length() - i] != b[b.length() - i]){
-            back++;
+        if(temp < num){
+            num = temp;
         }
     }
 
-    if(front >= back){
-        cout << back;
-    }else{
-        cout << front;
-    }
+    cout << num;
 
     return 0;
 }
