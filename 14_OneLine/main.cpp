@@ -19,13 +19,14 @@ int main() {
         for(int j = 0; j < N; j++){
             if(temp == 0 && line[j] == 0){
                 line[j] = i + 1;
-            }else{
+                break;
+            }else if(line[j] == 0){
                 temp--;
             }
         }
     }
 
     for(int k = 0; k < N; k++){
-        cout << line[k];
+        cout << line[k] << " ";
     }
 }
