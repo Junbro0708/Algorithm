@@ -15,9 +15,7 @@ int solution(vector<int> d, int budget) {
         if(d[i] <= budget){
             budget -= d[i];
             cnt++;
-        }else{
-            break;
-        }
+        }else break;
     }
     return cnt;
 }

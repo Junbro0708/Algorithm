@@ -31,7 +31,7 @@ int solution(vector<int> nums) {
     return answer;
 }
 
-int main() {
+int main() { // 테스트
     vector<int> num = {1, 2, 3, 4};
     cout << solution(num) << endl;
     return 0;

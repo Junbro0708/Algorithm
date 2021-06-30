@@ -21,6 +21,5 @@ string solution(string str) {
 
 int main() {
     cout << solution("qwer");
-
     return 0;
 }

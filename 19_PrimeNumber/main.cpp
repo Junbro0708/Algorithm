@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 #include <cmath>
 
 /*
@@ -7,7 +8,7 @@
 
 using namespace std;
 
-int solution(int n) {
+int solution(int n) { // 시간 초과 (제곱근 이용)
     int answer = 0;
     for(int i = 2; i <= n; i++){
         bool flag = true;
@@ -23,7 +24,7 @@ int solution(int n) {
     return answer;
 }
 
-int solution_A(int n){
+int solution_A(int n){ // 에라토스테네스의 체
     int res = 0;
     bool array[n+1];
     memset(array, false, sizeof(array));
