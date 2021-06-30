@@ -32,6 +32,6 @@ vector<int> solution(vector<int> answers) {
     return answer;
 }
 
-int main() {
+int main() { // test
     solution({1, 2, 3, 4, 5});
 }
