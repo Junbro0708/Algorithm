@@ -2,7 +2,7 @@
 #include<vector>
 
 /*
- * [136] 백준 11723번 집합
+ * [136] 백준 7568번 덩치
  */
 
 using namespace std;
