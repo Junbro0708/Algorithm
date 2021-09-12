@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="206_Guitar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="206_Guitar">
+				<Option output="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/206_Guitar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 206_Guitar"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="206_Guitar/fast">
+				<Option output="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/206_Guitar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 206_Guitar/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/main.cpp">
+			<Option target="206_Guitar"/>
+		</Unit>
+		<Unit filename="/Users/JUN_BRO/CLionProjects/Algorithm_CPP/206_Guitar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
