@@ -1,1 +1,1 @@
-CMakeLists.txt not found in /Users/JUN_BRO/CLionProjects/Sample_CPP Select CMakeLists.txt
+CMakeLists.txt not found in C:\Users\aktm7\Documents\GitHub\Algorithm_CPP Select CMakeLists.txt

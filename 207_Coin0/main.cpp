@@ -15,7 +15,7 @@ int main() {
     cin >> N >> K;
     while (N--){
         int temp;
-        
+
         cin >> temp;
         coin.push_back(temp);
     }
