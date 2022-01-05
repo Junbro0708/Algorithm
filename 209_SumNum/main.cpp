@@ -1,6 +1,9 @@
 #include <vector>
-#include <algorithm>
 #include <iostream>
+
+/*
+ * [209] 프로그래머스 level 1 없는 숫자 더하기
+ */
 
 using namespace std;
 
