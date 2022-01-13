@@ -34,7 +34,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
 }
 
 int main(){
-    vector<int> progresses = {93,30,55,60}, speeds = {1,30,5,40};
+    vector<int> progresses = {93,30,54,60}, speeds = {1,30,5,40};
     vector<int> answer;
 
     answer = solution(progresses, speeds);
