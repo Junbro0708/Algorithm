@@ -6,7 +6,7 @@
 #include <algorithm>
 
 /*
- * [215] 프록래머스 level 1 신고 결과 받기
+ * [215] 프로그래머스 level 1 신고 결과 받기
  */
 
 using namespace std;
