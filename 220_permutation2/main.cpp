@@ -19,7 +19,7 @@ int main() {
         arr.push_back(temp);
     }
 
-    if(next_permutation(arr.begin(), arr.end())){
+    if(prev_permutation(arr.begin(), arr.end())){
         for(int i = 0; i < arr.size(); i++){
             cout << arr[i] << " ";
         }
