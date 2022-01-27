@@ -1,0 +1,3 @@
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/220_permutation2/cmake-build-debug/CMakeFiles/220_permutation2.dir
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/220_permutation2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/220_permutation2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
