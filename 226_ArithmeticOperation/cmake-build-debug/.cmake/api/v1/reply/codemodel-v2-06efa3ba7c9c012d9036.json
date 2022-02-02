@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "226_ArithmeticOperation",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "226_ArithmeticOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-226_ArithmeticOperation-Debug-2c92cf91250bd445ea73.json",
+					"name" : "226_ArithmeticOperation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/226_ArithmeticOperation/cmake-build-debug",
+		"source" : "C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/226_ArithmeticOperation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
