@@ -10,6 +10,23 @@
 
 using namespace std;
 
+char alpha_[256];
+
+int calculate(vector<string> &words, vector<char> &alphabet, vector<int> &ascii){
+    int sum = 0;
+    for(int i = 0; i < alphabet.size(); i++){
+        alpha_[alphabet[i]] = ascii[i];
+    }
+    for(string s: words){
+        int tmp = 0;
+        for (char ch: s){
+            tmp = tmp * 10 + alpha_[ch];
+        }
+        sum += tmp;
+    }
+    return sum;
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
@@ -30,27 +47,11 @@ int main() {
     alpha.erase(unique(alpha.begin(), alpha.end()), alpha.end());
     for(int i = 0; i < alpha.size(); ++i)
         num.push_back(9-i);
-    sort(num.begin(), num.end());
+
     do {
-        int cost = 0;
-        vector<string> temp;
-
-        for(int i = 0; i < word.size(); ++i)
-            temp.push_back(word[i]);
-
-        for(int i = 0; i < temp.size(); ++i){
-            for(int j = 0; j < temp[i].size(); ++j){
-                for(int k = 0; k < alpha.size(); ++k){
-                    if(temp[i][j] == alpha[k]){
-                        temp[i][j] = char(num[k] + '0');
-                    }
-                }
-            }
-        }
-        for(int i = 0; i < temp.size(); ++i)
-            cost += stoi(temp[i]);
+        int cost = calculate(word, alpha, num);
         max_ = (cost > max_) ? cost : max_;
-    }while(next_permutation(num.begin(), num.end()));
+    }while(prev_permutation(num.begin(), num.end()));
     cout << max_;
     return 0;
 }
