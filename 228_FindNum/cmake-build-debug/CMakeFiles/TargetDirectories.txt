@@ -1,0 +1,3 @@
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/228_FindNum/cmake-build-debug/CMakeFiles/228_FindNum.dir
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/228_FindNum/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/228_FindNum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
