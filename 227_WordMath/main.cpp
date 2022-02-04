@@ -53,5 +53,6 @@ int main() {
         max_ = (cost > max_) ? cost : max_;
     }while(prev_permutation(num.begin(), num.end()));
     cout << max_;
+
     return 0;
 }
