@@ -1,32 +1,53 @@
 #include <iostream>
-#include <climits>
+#include <algorithm>
 
 /*
- * [228] 백준 1920번 수 찾기 미완
+ * [228] 백준 1920번 수 찾기
  */
 
 using namespace std;
 
-bool nums[INT_MAX] = {false, };
+int N, M;
+int arr[100001];
+
+void BinarySearch(int key){
+    int start = 0;
+    int end = N - 1;
+    int mid;
+
+    while (end >= start){
+        mid = (start + end) / 2;
+
+        if(arr[mid] == key){
+            cout << 1 << "\n";
+            return;
+        }else if(arr[mid] > key){
+            end = mid - 1;
+        }else{
+            start = mid + 1;
+        }
+    }
+    cout << 0 << "\n";
+    return;
+}
 
 int main() {
-    int N, M;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
 
     cin >> N;
     for(int i = 0; i < N; ++i){
         int temp;
         cin >> temp;
-        nums[temp] = true;
+        arr[i] = temp;
     }
+    sort(arr, arr + N);
 
     cin >> M;
     for(int i = 0; i < M; ++i){
         int temp;
         cin >> temp;
-        if(nums[temp])
-            cout << "1" << "\n";
-        else
-            cout << "0" << "\n";
+        BinarySearch(temp);
     }
     return 0;
 }
