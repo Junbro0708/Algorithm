@@ -1,0 +1,21 @@
+# ninja log v5
+1	397	6658327847908345	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+399	499	6658327848918623	230_MinimumDistance.exe	4c0ab73a24f37829
+2	373	6658330009339095	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+373	455	6658330010136585	230_MinimumDistance.exe	4c0ab73a24f37829
+2	409	6658330143889333	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+409	491	6658330144689180	230_MinimumDistance.exe	4c0ab73a24f37829
+1	370	6658330923372441	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+370	450	6658330924156663	230_MinimumDistance.exe	4c0ab73a24f37829
+2	372	6658332433081676	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+373	452	6658332433859564	230_MinimumDistance.exe	4c0ab73a24f37829
+2	370	6658333248127208	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+371	451	6658333248904524	230_MinimumDistance.exe	4c0ab73a24f37829
+1	396	6658333307133534	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+396	482	6658333307966594	230_MinimumDistance.exe	4c0ab73a24f37829
+2	394	6658333362283430	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+395	481	6658333363127479	230_MinimumDistance.exe	4c0ab73a24f37829
+2	374	6658333477274156	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+374	454	6658333478058254	230_MinimumDistance.exe	4c0ab73a24f37829
+2	403	6658334604382339	CMakeFiles/230_MinimumDistance.dir/main.cpp.obj	e7b9bc28187134a7
+403	485	6658334605176520	230_MinimumDistance.exe	4c0ab73a24f37829
