@@ -82,6 +82,7 @@ int main() {
             }
             if (result == 0) break;
         }
+        if (result == 0) break;
     }
     cout << result - 1;
     return 0;
