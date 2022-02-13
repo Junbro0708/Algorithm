@@ -3,7 +3,7 @@
 #include <cstring>
 
 /*
- * [234] 백준 7569번 토마토
+ * [235] 백준 7569번 토마토2
  */
 
 using namespace std;
