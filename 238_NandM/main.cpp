@@ -14,7 +14,7 @@ vector<int> Board;
 bool check[MAX];
 
 void DFS(int count){
-    if(count == M){
+    if(count == M){// 백트래킹은 종료 조건이 필요
         for(int i = 0; i < Board.size(); ++i){
             cout << Board[i] << " ";
         }
@@ -22,12 +22,12 @@ void DFS(int count){
         return;
     }else{
         for(int i = 1; i <= N; ++i){
-            if(check[i]) continue;
+            if(check[i]) continue; // 방문검사로 이미 간 곳은 패스
             check[i] = true;
             Board.push_back(i);
             DFS(count + 1);
             Board.pop_back();
-            check[i] = false;
+            check[i] = false; // 빼면서 방문검사도 당연히 안 간 것으로
         }
     }
 }
