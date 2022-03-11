@@ -1,0 +1,11 @@
+# ninja log v5
+0	218	6686718187471056	CMakeFiles/243_Factorial.dir/main.cpp.obj	24cdd83e1bbd69b3
+219	308	6686718188409034	243_Factorial.exe	bdf0eb7c93d4b5ea
+1	218	6686718606085850	CMakeFiles/243_Factorial.dir/main.cpp.obj	24cdd83e1bbd69b3
+218	305	6686718607026579	243_Factorial.exe	bdf0eb7c93d4b5ea
+2	219	6686718803177667	CMakeFiles/243_Factorial.dir/main.cpp.obj	24cdd83e1bbd69b3
+219	303	6686718803993331	243_Factorial.exe	bdf0eb7c93d4b5ea
+1	216	6686720390204588	CMakeFiles/243_Factorial.dir/main.cpp.obj	24cdd83e1bbd69b3
+216	301	6686720390987127	243_Factorial.exe	bdf0eb7c93d4b5ea
+2	229	6686721521690684	CMakeFiles/243_Factorial.dir/main.cpp.obj	24cdd83e1bbd69b3
+231	316	6686721522473470	243_Factorial.exe	bdf0eb7c93d4b5ea
