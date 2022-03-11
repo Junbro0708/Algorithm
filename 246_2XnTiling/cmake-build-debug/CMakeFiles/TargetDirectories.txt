@@ -1,0 +1,3 @@
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/246_2XnTiling/cmake-build-debug/CMakeFiles/246_2XnTiling.dir
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/246_2XnTiling/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aktm7/Documents/GitHub/Algorithm_CPP/246_2XnTiling/cmake-build-debug/CMakeFiles/rebuild_cache.dir
