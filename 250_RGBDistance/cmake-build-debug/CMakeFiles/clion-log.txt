@@ -1,32 +1,16 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mas/Documents/GitHub/Algorithm_CPP/250_RGBDistance
--- The C compiler identification is unknown
--- The CXX compiler identification is unknown
+-- The C compiler identification is AppleClang 13.1.6.13160021
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
 -- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc - broken
-CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake:69 (message):
-  The C compiler
-
-    "/usr/bin/cc"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/mas/Documents/GitHub/Algorithm_CPP/250_RGBDistance/cmake-build-debug/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make -f Makefile cmTC_f735f/fast && xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:2 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/mas/Documents/GitHub/Algorithm_CPP/250_RGBDistance/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/mas/Documents/GitHub/Algorithm_CPP/250_RGBDistance/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mas/Documents/GitHub/Algorithm_CPP/250_RGBDistance/cmake-build-debug
