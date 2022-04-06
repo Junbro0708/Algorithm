@@ -14,6 +14,7 @@ int DP[MAX][3];
 int main() {
     cin >> N;
     for(int i = 1; i <= N; ++i){
+        int test;
         int temp1, temp2, temp3;
         cin >> temp1 >> temp2 >> temp3;
 
