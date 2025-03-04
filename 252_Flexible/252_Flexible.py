@@ -21,7 +21,4 @@ def solution(schedules, timelogs, startday):
         
         if flag:
             answer += 1
-            
-        
-    
     return answer
